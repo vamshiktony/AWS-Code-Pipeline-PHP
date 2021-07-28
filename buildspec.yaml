@@ -1,0 +1,10 @@
+version: 0.1
+phases:
+  build:
+    commands:
+      - echo "starting build"
+artifacts:
+  type: zip
+  files:
+    - appspec.yml
+    - index.php
